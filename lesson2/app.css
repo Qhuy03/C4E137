@@ -1,0 +1,51 @@
+/*Viết code CSS trong File này*/
+/*Chọn tất cả thẻ <h1> trên trang wed*/
+h1 {
+    color: red;
+}
+
+p{
+    color: green;
+}
+/*Chọn phần tử hoặc  thẻ nào mà có id ="special-heading"*/
+#special-heading{
+    color: orange;
+}
+
+.text-blue{
+    color: blue;
+}
+/* 0,0,0 */
+*{
+    color: chocolate;
+}
+/* 0,0,1 */
+div{
+    color: blueviolet !important;
+} 
+/* 0,1,0 */
+.text-brow{
+    color: brown;
+}
+/* 1,0,0 */
+#my-div{
+    color: pink;
+}
+#test-text{
+    font-size: 40px;/*cỡ chữ*/
+    font-style: italic;/*kiểu chữ*/
+    text-decoration: line-through;/*trang chí cho chữ*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;/*biến đổi chữ*/
+}
+
+/* Nhừng thuộc tính - giá trị => Định dạng khối nội dung(Box model) */
+#my-box{
+    background-color: pink;
+    width: 300px;
+    height: 170px;
+    border: 10px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
