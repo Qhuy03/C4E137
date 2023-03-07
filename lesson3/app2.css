@@ -1,0 +1,46 @@
+.sidebar-item{
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 1px solid orange;
+    margin-bottom: 10px;
+    line-height: 40px;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background-color: cornflowerblue;
+    border-right:1px solid blue ;
+    top:0;
+    left:0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: none;
+    width:200px;
+    top: 0px;
+    position: absolute;
+    left: 240px;
+    width: 300px;
+}
+.sidebar-item:hover .menu{
+    display: block;
+}
+.menu-item{
+    position: relative;
+    text-align: center;
+    height: 40px;
+    border: 1px solid gray;
+    background-color: azure;
+    line-height: 40px;
+}

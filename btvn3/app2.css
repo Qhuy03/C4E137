@@ -1,0 +1,55 @@
+#app {
+    border: 1px solid blue;
+    height: 350px;
+    width: 800px;
+    background-color: lightblue;
+    position: relative;
+}
+
+.item {
+    border: 1px solid red;
+    height: 200px;
+    width: 700px;
+    background-color: lightsalmon;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.button {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.button_delete {
+    background-color: red;
+    border-radius: 5px;
+    border: 1px solid blue;
+    font-size: 20px;
+
+}
+
+.button_keep {
+    background-color: #2e86de;
+    border-radius: 5px;
+    border: 1px solid blue;
+    font-size: 20px;
+
+}
+
+.button_delete:hover {
+    background-color: white;
+    color: red;
+}
+
+.box {
+    /* border: 1px solid #ee5253; */
+    width: 200px;
+    height: 100px;
+    display: none;
+    
+    
+}
+.button_delete:hover .box {
+    display: block;
+    
+}

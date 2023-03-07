@@ -1,0 +1,36 @@
+#app{
+    width: 700px;
+    padding: 20px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.box-0{
+    width: auto;
+    height: auto;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: khaki;
+    border: 2px solid darkkhaki;
+}
+
+.box{
+    width: auto;
+    height: auto; 
+    background-color: salmon;
+    border: 1px solid darksalmon;
+    margin: 10px 0px 10px 0px;
+    z-index: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
