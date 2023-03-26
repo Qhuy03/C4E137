@@ -11,25 +11,25 @@
 
 
 //bài 8
-let n = prompt("Nhập vào 1 số nguyên bất kì");
-    var flag = true;
-    if (n < 2) {
-        flag=false;
+// let n = prompt("Nhập vào 1 số nguyên bất kì");
+//     var flag = true;
+//     if (n < 2) {
+//         flag=false;
 
-    }else {
-        for (let i = 2; i <= Math.sqrt(n); i++) {
-            if (n % i == 0) {
-                flag=false;
-                break;
-            } 
-        }
-    }
-    if(flag==true){
-        console.log("Đây là số nguyên tố!")
-    }else{
-        console.log("Đây k phải số nguyên tố!")
+//     }else {
+//         for (let i = 2; i <= Math.sqrt(n); i++) {
+//             if (n % i == 0) {
+//                 flag=false;
+//                 break;
+//             } 
+//         }
+//     }
+//     if(flag==true){
+//         console.log("Đây là số nguyên tố!")
+//     }else{
+//         console.log("Đây k phải số nguyên tố!")
 
-    }
+//     }
 
 
 //bài 9
@@ -164,19 +164,19 @@ let n = prompt("Nhập vào 1 số nguyên bất kì");
 
 
 //bài 17
-// let w = prompt("Mời nhập cân nặng!");
-//     let h = prompt("Mời nhập chiều cao"); 
-//     let BMI = w/(h*2);
-//     console.log(BMI);
-//     if(BMI<18.5){
-//         console.log("bạn bị nhẹ cân nhẹ cân!");
-//     }else if(18.5<=BMI<23){
-//         console.log("Chỉ số của bạn bình thường");
+let w = prompt("Mời nhập cân nặng!");
+    let h = prompt("Mời nhập chiều cao"); 
+    let BMI = w/(h*2);
+    console.log(BMI);
+    if(BMI<18.5){
+        console.log("bạn bị nhẹ cân nhẹ cân!");
+    }else if(18.5<=BMI<23){
+        console.log("Chỉ số của bạn bình thường");
 
-//     }else if(23<=BMI<25){
-//         console.log("Cơ thể của bạn đang bị thừa cân");
-//     }else{
-//         console.log("Cơ thể của bạn đang bị béo phì");
+    }else if(23<=BMI<25){
+        console.log("Cơ thể của bạn đang bị thừa cân");
+    }else{
+        console.log("Cơ thể của bạn đang bị béo phì");
 
-//     }
+    }
 
