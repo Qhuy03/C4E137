@@ -1,8 +1,8 @@
 //bài 3
-// function isValidDate(day, mouth, year){
-//     var date =new Date(year,mouth - 1,day);
+// function isValidDate(day, month, year){
+//     var date =new Date(year,month - 1,day);
 //     return(date.getFullYear()== year 
-//     && date.getMonth()==mouth -1
+//     && date.getMonth()==month -1
 //     && date.getDate()==day);
 
 // }
@@ -531,16 +531,16 @@ let users = [
 // findUserById();
 
 //Nhập vào 1 chuỗi keyword. Hãy lấy ra email của các user có tên (first_name + last_name) chứa keyword.
-function email(){
-    for(let user of users){
-        let fullName = user.first_name + user.last_name; 
-        if(fullName.includes("Marc")){
-            console.log(user.email)
-        }
+// function email(){
+//     for(let user of users){
+//         let fullName = user.first_name + user.last_name; 
+//         if(fullName.includes("Marc")){
+//             console.log(user.email)
+//         }
 
-    }
-}
-email();
+//     }
+// }
+// email();
 
 //Đếm số lượng user có age > 50.
 // function Age50(){
